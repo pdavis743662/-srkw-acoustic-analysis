@@ -27,16 +27,16 @@ Statistical validation: chi-squared test, Shannon entropy, permutation testing, 
 
 Repository Structure
 srkw-acoustic-analysis/
-├── orca_PCA_pipeline.ipynb      # Phase 1: feature extraction, PCA, clustering
-├── orca_HMM_pipeline.ipynb      # Phase 2: HMM, transition network, statistics
-├── scaler.pkl                   # Trained StandardScaler
-├── pca_2d.pkl                   # Trained PCA
-├── kmeans.pkl                   # Trained K-Means
-├── hmm_model.pkl                # Fitted HMM
-├── kmeans_network.html          # Interactive K-Means network (Plotly)
-├── hmm_network.html             # Interactive HMM network (Plotly)
-└── README.md
-Key Findings
+\n├── orca_PCA_pipeline.ipynb      # Phase 1: feature extraction, PCA, clustering
+\n├── orca_HMM_pipeline.ipynb      # Phase 2: HMM, transition network, statistics
+\n├── scaler.pkl                   # Trained StandardScaler
+\n├── pca_2d.pkl                   # Trained PCA
+\n├── kmeans.pkl                   # Trained K-Means
+\n├── hmm_model.pkl                # Fitted HMM
+\n├── kmeans_network.html          # Interactive K-Means network (Plotly)
+\n├── hmm_network.html             # Interactive HMM network (Plotly)
+\n└── README.md
+\n #Key Findings
 To be updated with final results.
 Requirements
 librosa
