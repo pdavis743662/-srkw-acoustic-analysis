@@ -27,31 +27,35 @@ Statistical validation: chi-squared test, Shannon entropy, permutation testing, 
 
 Repository Structure
 srkw-acoustic-analysis/
-\n├── orca_PCA_pipeline.ipynb      # Phase 1: feature extraction, PCA, clustering
-\n├── orca_HMM_pipeline.ipynb      # Phase 2: HMM, transition network, statistics
-\n├── scaler.pkl                   # Trained StandardScaler
-\n├── pca_2d.pkl                   # Trained PCA
-\n├── kmeans.pkl                   # Trained K-Means
-\n├── hmm_model.pkl                # Fitted HMM
-\n├── kmeans_network.html          # Interactive K-Means network (Plotly)
-\n├── hmm_network.html             # Interactive HMM network (Plotly)
-\n└── README.md
-\n #Key Findings
+├── orca_PCA_pipeline.ipynb      # Phase 1: feature extraction, PCA, clustering
+├── orca_HMM_pipeline.ipynb      # Phase 2: HMM, transition network, statistics
+├── scaler.pkl                   # Trained StandardScaler
+├── pca_2d.pkl                   # Trained PCA
+├── kmeans.pkl                   # Trained K-Means
+├── hmm_model.pkl                # Fitted HMM
+├── kmeans_network.html          # Interactive K-Means network (Plotly)
+├── hmm_network.html             # Interactive HMM network (Plotly)
+└── README.md
+
+#Key Findings
 To be updated with final results.
 Requirements
-librosa
-soundfile
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-hmmlearn
-networkx
-plotly
-scipy
-joblib
-Citation
+* librosa
+* soundfile
+* numpy
+* pandas
+* matplotlib
+* seaborn
+* scikit-learn
+* hmmlearn
+* networkx
+* plotly
+* scipy
+* joblib
+
+
+#Citation
+
 If referencing the acoustic data:
 
 Frazao, F. (2025). Audio clips of Orca (Orcinus orca) and non-orca sounds for the exploration of multiple acoustic representations. Zenodo. https://doi.org/10.5281/zenodo.15390884
