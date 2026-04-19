@@ -1,0 +1,16 @@
+name: orca_hmm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - joblib
+  - matplotlib
+  - ipykernel
+  - hmmlearn
+  - nbformat>=4.2
+  - plotly
+  - networkx
